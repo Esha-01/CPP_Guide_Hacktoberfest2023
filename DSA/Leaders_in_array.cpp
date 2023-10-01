@@ -1,3 +1,9 @@
+//question link-"https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1"
+
+//time Complexity: O(N) { Since the array is traversed single time back to front, it will consume O(N) of time where N = size of the array }.
+
+//space Complexity: O(N) { There is no extra space being used in this approach. But, a O(N) of space for ans array will be used in the worst case }.
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -41,3 +47,4 @@ int main() {
 }
 
 //output is {22,12,6}
+
